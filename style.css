@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    background-color: #731963;
+    color: white;
+    border-radius: 5px;
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 2%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 5vh;
+
+}
+
+.teamCards {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.card {
+    width: 20%;
+    height: 20%;    
+    border-radius: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin: 5%;
+    box-shadow: 5px 5px 10px rgb(88, 85, 85);
+    
+
+}
+
+.cardHeader {
+    background-color: #0B3C49;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    text-align: left;
+    padding: 2%;
+    padding-left: 1rem;    
+    padding-bottom: 2%;
+    /* box-shadow: 5px 0 5px black; */
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #0B3C49;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    color: #0B3C49;
+    background-color: rgb(247, 244, 244);
+    /* box-shadow: 5px 5px 5px black; */
+    
+}
+
+p {
+    padding-left: 1rem;
+    
+    font-weight: bold;
+}
+
+
+.employeeCardDetails {
+    border: solid 1px #0B3C49;
+    border-radius: 5px;
+    margin: 2rem;
+    background-color: white;
+}
+
+.middle {
+    border-top: solid 1px #0B3C49;
+    border-bottom: solid 1px #0B3C49;
+    padding: 1rem;
+}
